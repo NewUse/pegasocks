@@ -37,7 +37,7 @@ typedef struct pgs_session_s {
 	pgs_session_outbound_t *outbound;
 	pgs_local_server_t *local_server;
 	pgs_session_stats_t *metrics;
-
+	pgs_ssl_ctx_t *ssl_ctx;
 	pgs_list_node_t *node; /* store the value to sessions */
 } pgs_session_t;
 
